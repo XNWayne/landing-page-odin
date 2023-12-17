@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 1rem 5rem;
+    justify-content: space-between;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+header li {
+    cursor: pointer;
+}
+
+#hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10rem;
+    padding: 5rem 5rem;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+#hero img {
+    width: 70%;
+    height: 25rem;
+    border-radius: 10px;
+}
+
+#hero p {
+    color: #e5e7eb;
+    margin-top: 1rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.info {
+    margin-top: 1rem;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    font: inherit;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: .5rem 2rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+#random-info h2{
+    margin: 3rem 0;
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.random-text {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+.info-text img {
+    width: 15rem;
+    height: 11rem;
+    border: 3px solid #3882f6;
+    border-radius: 5px;
+}
+
+.info-text {
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 2.5rem;
+}
+
+.info-text p {
+    text-align: center;
+    margin-top: 1rem;
+}
+
+#quote {
+    background-color: #e5e7eb;
+    padding: 5rem 2rem;
+}
+
+#quote div {
+    width: 70%;
+    margin: 0 auto;
+}
+
+#quote h2 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+#quote p {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-align: end;
+    margin-top: 1rem;
+}
+
+#cta {
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 3rem 2rem;
+}
+
+#cta .btn {
+    background-color: #3882f6;
+    border: solid 2px#f9faf8;
+    font-size: 1.2rem;
+    padding: .5rem 2rem;
+    margin: 0;
+}
+
+/* .cta-text {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+} */
+
+#cta div {
+    width: 70%;
+    border-radius: 10px;
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.cta-text {
+    font-size: 1.5rem;
+}
+
+footer {
+    background-color: #1f2937;
+    color: #e5e7eb;
+    text-align: center;
+    padding: 2rem 0;
+}
